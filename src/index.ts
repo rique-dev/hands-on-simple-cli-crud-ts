@@ -1,1 +1,1 @@
-import './view/thingView'
+import './view/itemView'
