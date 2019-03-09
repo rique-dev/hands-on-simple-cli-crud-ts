@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon nodemon.json",
-    "cli": "ts-node src/index.ts",
+    "cli": "node dist/index.js",
     "build": "tsc",
     "test": "mocha -u bdd -r ts-node/register --colors src/**/*.spec.ts"
   },
