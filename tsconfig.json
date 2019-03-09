@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "keyofStringsOnly": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "esnext",
+    "jsx": "react",
+    "allowJs": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "types/*"
+    ],
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "esnext",
+      "dom",
+      "scripthost",
+      "es2015.iterable"
+    ],
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "**/node_modules/**/*"
+  ]
+}

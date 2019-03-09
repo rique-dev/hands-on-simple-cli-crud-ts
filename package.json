@@ -1,0 +1,32 @@
+{
+  "name": "typesript-tdd-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon nodemon.json",
+    "cli": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "mocha -u bdd -r ts-node/register --colors src/**/*.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/commander": "^2.12.2",
+    "@types/jest": "^23.3.14",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.12.30",
+    "@types/ramda": "^0.25.51",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "ramda": "^0.26.1"
+  }
+}
